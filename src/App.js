@@ -23,6 +23,7 @@ class App extends Component {
       <div className="app">
         <SayHi />
         <SayHello color="black" name={this.state.name} />
+        <p>Maria</p>
         <Search handleInput={this.handleInputChange} />
       </div>
     );
