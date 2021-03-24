@@ -3,10 +3,10 @@ import Search from "./components/Search";
 import clear from "./img/weather-icons/clear.svg";
 
 import SayHi, { SayHello } from "./components/WeatherItem";
-// import {WeatherToday} from "./components/WeatherToday";
 import fakeWeatherData from "./fakeWeatherData.json";
 import "./App.css";
 import { WeatherToday } from "./components/WeatherToday";
+import FakeWeather from "./data/FakeWeather.json";
 
 class App extends Component {
   constructor(props) {
